@@ -6,6 +6,7 @@ This project displays the following:
 
 If I had more time, I would:
 1. Integrate register/login with actual API
-2. Refine spacing of Login area to be more responsive to screen height
-3. Create login state
-4. Address other TODO's as listed in the codebase
+2. Refine spacing of Login area to be more responsive to screen height 
+3. Decide how to handle landscape mode and implement
+4. Create login state
+5. Address other TODO's as listed in the codebase
