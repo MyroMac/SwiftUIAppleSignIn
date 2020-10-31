@@ -1,6 +1,6 @@
 # SwiftUIAppleSignIn
 This project displays the following:
-1. Vertical sizing control of VStack
+1. Vertical sizing control of VStack elements to account for varying screen height
 2. Sign In With Apple Implementation
 3. Effective separation of logic into scalable architecture
 
