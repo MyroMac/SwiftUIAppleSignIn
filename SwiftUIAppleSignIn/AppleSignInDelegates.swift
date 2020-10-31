@@ -23,7 +23,10 @@ class AppleSignInDelegates: NSObject {
 extension AppleSignInDelegates: ASAuthorizationControllerDelegate {
     private func registerNewAccount(credential: ASAuthorizationAppleIDCredential) {
         guard let email = credential.email else {
-            self.signInSucceeded(false)
+            //TODO: handle case where we are not provided with the user email since user has already
+            //clicked "Sign In With Apple" before. In this scenario, we will use
+            //the credentials that Apple supplies us to match with a user stored in our database
+            self.signInSucceeded(true)
             return
         }
         
